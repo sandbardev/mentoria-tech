@@ -49,3 +49,5 @@ gem 'flipper', '~> 0.20.4'
 
 gem 'rubocop-rails', '~> 2.9'
 gem 'rubocop-rspec', '~> 2.2'
+
+gem 'rspec-rails', '~> 5.0'
