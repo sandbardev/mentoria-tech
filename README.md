@@ -1,24 +1,12 @@
-# README
+# Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para estudo.
 
-Things you may want to cover:
+## To Do
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [x] desenvolver app utilizando TDD
+- [x] utilizar o flipper para o health check
+- [ ] utilizar o hoverfly para mockar alguma API externa
+- [ ] usar terraform para configurar infra
+- [ ] manter stateless app, como indicado no https://12factor.net/pt_br/
+  - [ ] mudar o adapter do flipper para Redis
