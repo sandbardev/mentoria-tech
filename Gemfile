@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'flipper', '~> 0.20.4'
 gem 'flipper-active_record', '~> 0.20.4'
 gem 'flipper-ui', '~> 0.20.4'
+
+gem "httparty", "~> 0.18.1"
