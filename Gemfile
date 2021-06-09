@@ -35,7 +35,6 @@ group :development, :test do
   gem 'rubocop', '~> 1.12'
   gem 'rubocop-rails', '~> 2.9'
   gem 'rubocop-rspec', '~> 2.2'
-  gem 'webmock'
 end
 
 group :development do
