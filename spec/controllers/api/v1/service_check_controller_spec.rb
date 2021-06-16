@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-require 'webmock/rspec'
 
 describe Api::V1::ServiceCheckController, type: :request do
   subject do
