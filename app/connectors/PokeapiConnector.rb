@@ -2,7 +2,7 @@
 
 class PokeapiConnector
   def get_all
-    request = HTTParty.get('https://httpstat.us/500')
+    request = HTTParty.get('https://pokeapi.co/api/v2/pokemon/')
 
     raise StandardError, 'IntegrationError' unless request.code == 200
 

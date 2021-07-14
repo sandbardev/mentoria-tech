@@ -1,0 +1,10 @@
+hoverctl start
+hoverfly mode spy
+hoverctl import hoverfly/simulation.json
+
+curl --proxy=http://localhost:8500 --cacert hoverfly/cert.pem https://pokeapi.co/api/v2/pokemon/
+
+(será interceptado pela nossa simulation)
+
+hoverctl mode capture
+// to be continued
